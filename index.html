@@ -3,245 +3,72 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — Billion Beers</title>
+<title>Billion Beers</title>
+<meta name="description" content="A social app for logging the beers you drink, counting toward a global target of one billion.">
 <style>
   :root {
-    --bg: #F4EEE0;
-    --surface: #FCF8EF;
-    --ink: #231A10;
-    --body: #3A2E20;
-    --muted: #6B5B46;
-    --line: #D8CDB8;
-    --accent: #95590A;
+    --bg: #F4EEE0; --ink: #231A10; --body: #3A2E20;
+    --muted: #6B5B46; --line: #D8CDB8; --accent: #95590A;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #17110C;
-      --surface: #30251B;
-      --ink: #F4EADB;
-      --body: #E6D9C6;
-      --muted: #B5A08A;
-      --line: #443629;
-      --accent: #E6A93F;
+      --bg: #17110C; --ink: #F4EADB; --body: #E6D9C6;
+      --muted: #B5A08A; --line: #443629; --accent: #E6A93F;
     }
   }
   * { box-sizing: border-box; }
   body {
-    margin: 0;
-    padding: 0 20px 80px;
-    background: var(--bg);
-    color: var(--body);
+    margin: 0; padding: 0 20px 80px; background: var(--bg); color: var(--body);
     font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     -webkit-text-size-adjust: 100%;
   }
-  main { max-width: 680px; margin: 0 auto; }
-  header { padding: 56px 0 28px; border-bottom: 2px solid var(--ink); }
+  main { max-width: 620px; margin: 0 auto; }
+  header { padding: 96px 0 32px; }
   .eyebrow {
     font-size: 11px; font-weight: 700; letter-spacing: .14em;
     text-transform: uppercase; color: var(--accent); margin: 0;
   }
   h1 {
-    font-size: clamp(30px, 6vw, 42px); line-height: 1.05; letter-spacing: -.02em;
-    color: var(--ink); margin: 10px 0 0; font-weight: 800;
+    font-size: clamp(34px, 8vw, 56px); line-height: 1.02; letter-spacing: -.03em;
+    color: var(--ink); margin: 12px 0 0; font-weight: 800;
   }
-  .updated { color: var(--muted); font-size: 14px; margin: 14px 0 0; }
-  h2 {
-    font-size: 20px; font-weight: 700; letter-spacing: -.01em; color: var(--ink);
-    margin: 42px 0 10px;
-  }
-  h3 { font-size: 15px; font-weight: 700; color: var(--ink); margin: 26px 0 6px; }
-  p, li { margin: 0 0 12px; }
-  ul { padding-left: 20px; }
+  .lede { font-size: 18px; color: var(--muted); margin: 20px 0 0; }
+  h2 { font-size: 15px; font-weight: 700; color: var(--ink); margin: 48px 0 8px; }
+  p { margin: 0 0 14px; }
   a { color: var(--accent); }
-  strong { color: var(--ink); }
-  table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 15px; }
-  th, td { text-align: left; padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
-  th { color: var(--ink); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
-  .box {
-    background: var(--surface); border-left: 3px solid var(--accent);
-    padding: 16px 18px; margin: 24px 0;
-  }
-  footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  nav { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--line); }
+  nav a { display: inline-block; margin-right: 20px; font-weight: 600; }
+  footer { margin-top: 56px; color: var(--muted); font-size: 14px; }
 </style>
 </head>
 <body>
 <main>
+  <header>
+    <p class="eyebrow">Quest to one billion</p>
+    <h1>Billion Beers</h1>
+    <p class="lede">Photograph the beer. Rate it out of ten. Watch the number climb.</p>
+  </header>
 
-<header>
-  <p class="eyebrow">Billion Beers</p>
-  <h1>Privacy Policy</h1>
-  <p class="updated">Last updated 7 October 2026</p>
-</header>
+  <p>Billion Beers is a social app for logging the beers you drink. Every beer you
+  log is photographed, rated and given its own permanent number — its place in a
+  global count heading toward one billion.</p>
 
-<p>Billion Beers is an app for logging the beers you drink and sharing them with
-friends. This policy explains what it collects, why, and what you can do about it.
-It is written to be read rather than to cover us, so if anything here is unclear,
-<a href="mailto:billionsofbeers@gmail.com">ask</a>.</p>
+  <p>See what friends are drinking, watch beers being logged around the world as
+  they happen, collect the countries you have drunk in, and form a team to take on
+  other teams at weekends.</p>
 
-<div class="box">
-  <strong>The short version.</strong> We collect what the app needs to work: your
-  account details, the beers you log, and the photos you take of them. We do not
-  sell your data, we do not show advertising, and there are no tracking or
-  analytics tools in the app. You can delete your account, and everything in it,
-  from inside the app at any time.
-</div>
+  <h2>Currently in testing</h2>
+  <p>The app is in private beta on TestFlight. If you would like to try it,
+  <a href="mailto:billionsofbeers@gmail.com">get in touch</a>.</p>
 
-<h2>Who is responsible</h2>
+  <nav>
+    <a href="/privacy/">Privacy policy</a>
+    <a href="mailto:billionsofbeers@gmail.com">Contact</a>
+  </nav>
 
-<p>Billion Beers is run by Jake Cripps as an individual, not a registered company.
-For anything about your data — a question, a correction, a copy, or a deletion —
-email <a href="mailto:billionsofbeers@gmail.com">billionsofbeers@gmail.com</a>.</p>
-
-<h2>You have to be 18 or over</h2>
-
-<p>This app is about alcohol, so it is for adults only. We ask for your date of
-birth when you sign up and refuse accounts for under-18s. We do not knowingly
-collect anything from children. If you believe a child has created an account,
-email us and we will remove it.</p>
-
-<h2>What we collect</h2>
-
-<table>
-  <tr><th>What</th><th>Why</th></tr>
-  <tr>
-    <td><strong>Email address and password</strong></td>
-    <td>To create your account and sign you in. Passwords are hashed by our
-        authentication provider and are never visible to us.</td>
-  </tr>
-  <tr>
-    <td><strong>Username, display name, profile picture</strong></td>
-    <td>So friends can find you and your posts have a name on them. These are
-        visible to other people using the app.</td>
-  </tr>
-  <tr>
-    <td><strong>Date of birth</strong></td>
-    <td>To check you are 18 or over. It is not shown to anybody else.</td>
-  </tr>
-  <tr>
-    <td><strong>Country and region</strong></td>
-    <td>To place you on national and regional leaderboards.</td>
-  </tr>
-  <tr>
-    <td><strong>Beers you log</strong> — the beer, your rating, your notes, the
-        words you pick, and the time</td>
-    <td>This is the point of the app. It builds your profile, your streak, your
-        achievements and the global count.</td>
-  </tr>
-  <tr>
-    <td><strong>Photos of your beers</strong></td>
-    <td>Shown on your posts. Every photo is checked automatically before it is
-        stored — see below.</td>
-  </tr>
-  <tr>
-    <td><strong>Location, when you log a beer</strong></td>
-    <td>Only if you allow it. Used to tag where you had the beer, to show which
-        pubs near you serve a beer, and to count the countries you have drunk in.
-        You can refuse location access and still use the app.</td>
-  </tr>
-  <tr>
-    <td><strong>Friends, teams and messages</strong></td>
-    <td>To run the social side: friend lists, team membership and team chat.</td>
-  </tr>
-  <tr>
-    <td><strong>Comments, likes and reports</strong></td>
-    <td>To show conversation under posts, and to act on anything reported.</td>
-  </tr>
-</table>
-
-<p>There is no advertising in Billion Beers, no third-party analytics, and no
-tracking across other apps or websites. We do not build advertising profiles and
-we do not sell or rent your data to anyone, ever.</p>
-
-<h2>Who else sees it</h2>
-
-<p>A few services process data on our behalf so the app can function. They act on
-our instructions and are not permitted to use your data for their own purposes.</p>
-
-<ul>
-  <li><strong>Supabase</strong> — stores the database, your account and your
-      photos. Hosted in the EU (Ireland).</li>
-  <li><strong>Railway</strong> — runs the server the app talks to.</li>
-  <li><strong>Google Cloud Vision</strong> — every photo you upload is sent for
-      automatic checking before it is stored, both to detect explicit content and
-      to read the beer's label so we can identify it. Google does not use these
-      images to train its models.</li>
-  <li><strong>Google Places</strong> — when you search for pubs nearby, your
-      approximate location is sent so results can be returned.</li>
-  <li><strong>Anthropic</strong> — generates background descriptions of beers.
-      Only the beer and brewery name are sent. None of your personal data is.</li>
-  <li><strong>Brevo</strong> — sends the account emails, such as a password
-      reset code. Only your email address is sent.</li>
-  <li><strong>Apple</strong> — distributes the app through TestFlight and the
-      App Store, and tells us about crashes.</li>
-</ul>
-
-<p>We will also disclose data if the law requires it, or to protect someone's
-safety. If that ever happens we will tell you unless we are legally prevented
-from doing so.</p>
-
-<h2>What other people can see</h2>
-
-<p>Your display name, username, profile picture, the beers you log and their
-photos are visible to other people using the app. If you turn on
-<strong>Private Profile</strong> in Settings, only accepted friends can see your
-beers. Your email address, date of birth and exact coordinates are never shown to
-other users.</p>
-
-<p>Posts from public accounts appear in the app's global Live feed.</p>
-
-<h2>Keeping it civil</h2>
-
-<p>Every uploaded photo is scanned automatically and explicit material is refused
-before it is stored. You can report any post, and you can block any person, which
-hides you from each other entirely. Reports are read by a human. Accounts that
-abuse the app are removed.</p>
-
-<h2>Your rights</h2>
-
-<p>Under UK and EU data protection law you can ask us to give you a copy of your
-data, correct it, delete it, or stop using it in a particular way. You can also
-complain to the UK Information Commissioner's Office at
-<a href="https://ico.org.uk">ico.org.uk</a>.</p>
-
-<h3>Deleting your account</h3>
-
-<p><strong>Settings → Delete Account</strong>, inside the app. That removes your
-profile, your beers, your photos, your comments and your messages. It cannot be
-undone. Beers you logged are removed from the global count at the same time.</p>
-
-<p>If you would rather we did it, email
-<a href="mailto:billionsofbeers@gmail.com">billionsofbeers@gmail.com</a> and we
-will action it within 30 days.</p>
-
-<h2>How long we keep things</h2>
-
-<p>Your account and its contents are kept until you delete them. Reports are kept
-for two years after they are dealt with, so repeated abuse can be recognised.
-Backups are kept for 30 days, so deleted data can persist in a backup for up to a
-month before it is overwritten.</p>
-
-<h2>Security</h2>
-
-<p>Everything travels over HTTPS. Passwords are hashed, never stored in plain
-text, and never visible to us. Access to the database is restricted to the people
-running the app. No system is perfectly secure, and we will not pretend otherwise
-— but if a breach affects you, we will tell you.</p>
-
-<h2>Where your data is held</h2>
-
-<p>Your data is stored in the European Union (Ireland). Some of the services above
-are run by companies based in the United States, which means data may be
-transferred there under appropriate safeguards.</p>
-
-<h2>Changes</h2>
-
-<p>If this policy changes in a way that affects you, we will tell you in the app
-before it takes effect. The date at the top always reflects the current version.</p>
-
-<footer>
-  <p>Billion Beers · <a href="mailto:billionsofbeers@gmail.com">billionsofbeers@gmail.com</a></p>
-</footer>
-
+  <footer>
+    <p>Billion Beers · billionsofbeers@gmail.com</p>
+  </footer>
 </main>
 </body>
 </html>
